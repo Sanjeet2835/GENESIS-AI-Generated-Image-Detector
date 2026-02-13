@@ -256,7 +256,7 @@ While Synapse-7 achieves high accuracy on the validation set, the current implem
 * **The Risk:** The model may experience performance degradation when inference is run on **state-of-the-art (SOTA)** generators like **Flux.1**, **Midjourney v6**, or **DALL-E 3**. Newer architectures use advanced sampling schedulers and transformer backbones that produce "cleaner" frequency maps, potentially evading detection (False Negatives).
 
 
-### **C. Future Scope**
+### **B. Future Scope**
 
 1. **Scale-Up:**
 * Train on the full **GenImage** dataset using multi-GPU distributed training (DDP) to validate performance at scale.
